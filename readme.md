@@ -12,4 +12,5 @@ Your file has been copied to the clipboard.
 
 #### Features to come:
 * "Better behavior". The program should be able to behave like a console script. Also, since copying to the clipboard is now supported, now we should be able to specify via flags whether or not the ".spaced" file should be created.
-* Better clipboard behavior. "pyperclip" is strange, does not always behave well. For instance, when 
+* Better clipboard behavior. "pyperclip" is strange, there are persistence issues. See [this](https://github.com/asweigart/pyperclip/issues/61).
+* Test for OS compatibility.
