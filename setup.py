@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(name='spoilerfy',
       version='0.11',
-      description='Put 4 spaces in front of each line, then copy those lines to your clipboard.',
+      description='Format your code for /r/dailyprogrammer',
       url='https://www.github.com/rodenmonte/spoilerfy',
       author='Monte Roden',
       author_email='rodenmonte@gmail.com',
