@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from sys import argv
 
 if len(argv) < 2:
@@ -15,4 +16,3 @@ try:
       print("Couldn't create a file in the directory")
 except:
   print("Couldn't open the file, ", your_file)
-
