@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='spoilerfy',
-      version='0.11',
+      version='1.0',
       description='Format your code for /r/dailyprogrammer',
       url='https://www.github.com/rodenmonte/spoilerfy',
       author='Monte Roden',

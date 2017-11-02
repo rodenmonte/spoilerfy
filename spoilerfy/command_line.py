@@ -1,8 +1,7 @@
 import spoilerfy
-from sys import argv
 
 def main():
-  spoilerfy.main(argv)
+  spoilerfy.main()
 
 if __name__ == "__main__":
   main()
