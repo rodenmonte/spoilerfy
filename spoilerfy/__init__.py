@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import argparse
 
 def spoilerfy(your_file, verbose):
@@ -86,9 +86,13 @@ def main():
   #We note that parse() itself quits if -h is included, or filename dne.
   spoilerfied_text = spoilerfy(args.filename, args.verbose)
   if(args.file):
+    if(args.verbose):
+      print("Writing text to file...")
     write_text(spoilerfied_text, args.filename, args.verbose)
   if(args.copy or not (args.copy and args.print and args.file)):
     #if no options are specified, copy!
+    if(args.verbose):
+      print("Copying...")
     copy(spoilerfied_text, args.verbose)
   if(args.print):
     if(args.verbose):
